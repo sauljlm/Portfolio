@@ -222,66 +222,66 @@ function Homepage() {
         </div>
       </section>
 
-      <section className="flex w-2/3 sm:w-4/5 xl:w-1/2 mt-48 flex-col" id='knowledge'>
+      <section className="flex w-2/3 sm:w-4/5 xl:w-1/2 mt-48 flex-col" id='technologies'>
         <div className="flex flex-col w-full h-1/2">
-          <h2 className="font-ailerons relative right-2 text-4xl mb-8">Conocimientos</h2>
+          <h2 className="font-ailerons relative right-2 text-4xl mb-8">Tecnologías</h2>
           <div className="flex justify-center">
             {/* Front End Section */}
-            <article className="w-1/2 px-4 bg-gray-500 p-5 rounded-2xl mr-2">
+            <article className="w-1/2 px-4 bg-background shadow-lg shadow-primary p-5 rounded-2xl mr-2">
               <h3 className="text-ternary text-xl font-bold text-center">Front End</h3>
               <ul className="flex w-full flex-wrap">
                 <li className="p-5 w-1/3 aspect-square flex flex-col items-center justify-center">
-                  <Image src="/img/icon.svg" alt="Nombre" width={50} height={50} className="rounded-md object-cover" />
+                  <Image src="/img/technologies/html-5.png" alt="Nombre" width={50} height={50} className="rounded-md object-cover" />
                   <p className='pt-3 text-sm'>HTML</p>
                 </li>
                 <li className="p-5 w-1/3 aspect-square flex flex-col items-center justify-center">
-                  <Image src="/img/icon.svg" alt="Nombre" width={50} height={50} className="rounded-md object-cover" />
+                  <Image src="/img/technologies/css-3.png" alt="Nombre" width={50} height={50} className="rounded-md object-cover" />
                   <p className='pt-3 text-sm'>CSS</p>
                 </li>
                 <li className="p-5 w-1/3 aspect-square flex flex-col items-center justify-center">
-                  <Image src="/img/icon.svg" alt="Nombre" width={50} height={50} className="rounded-md object-cover" />
+                  <Image src="/img/technologies/js.png" alt="Nombre" width={50} height={50} className="rounded-md object-cover" />
                   <p className='pt-3 text-sm'>JavaScript</p>
                 </li>
                 <li className="p-5 w-1/3 aspect-square flex flex-col items-center justify-center">
-                  <Image src="/img/icon.svg" alt="Nombre" width={50} height={50} className="rounded-md object-cover" />
+                  <Image src="/img/technologies/react-js.png" alt="Nombre" width={50} height={50} className="rounded-md object-cover" />
                   <p className='pt-3 text-sm'>ReactJS</p>
                 </li>
                 <li className="p-5 w-1/3 aspect-square flex flex-col items-center justify-center">
-                  <Image src="/img/icon.svg" alt="Nombre" width={50} height={50} className="rounded-md object-cover" />
+                  <Image src="/img/technologies/next-js.png" alt="Nombre" width={50} height={50} className="rounded-md object-cover" />
                   <p className='pt-3 text-sm'>Next.js</p>
                 </li>
                 <li className="p-5 w-1/3 aspect-square flex flex-col items-center justify-center">
-                  <Image src="/img/icon.svg" alt="Nombre" width={50} height={50} className="rounded-md object-cover" />
-                  <p className='pt-3 text-sm'>Tailwind</p>
+                  <Image src="/img/technologies/Tailwind-CSS.png" alt="Nombre" width={50} height={50} className="rounded-md object-cover" />
+                  <p className='pt-3 text-sm w-fit'>TailwindCSS</p>
                 </li>
               </ul>
             </article>
             {/* Back End Section */}
-            <article className="w-1/2 px-4 bg-gray-500 p-5 rounded-2xl ml-2">
+            <article className="w-1/2 px-4 bg-background shadow-lg shadow-primary p-5 rounded-2xl ml-2">
               <h3 className="text-ternary text-xl font-bold text-center">Back End</h3>
               <ul className="flex w-full flex-wrap">
                 <li className="p-5 w-1/3 aspect-square flex flex-col items-center justify-center">
-                  <Image src="/img/icon.svg" alt="Nombre" width={50} height={50} className="rounded-md object-cover" />
+                  <Image src="/img/technologies/node-js.png" alt="Nombre" width={50} height={50} className="rounded-md object-cover" />
                   <p className='pt-3 text-sm'>Node.js</p>
                 </li>
                 <li className="p-5 w-1/3 aspect-square flex flex-col items-center justify-center">
-                  <Image src="/img/icon.svg" alt="Nombre" width={50} height={50} className="rounded-md object-cover" />
+                  <Image src="/img/technologies/java.png" alt="Nombre" width={50} height={50} className="rounded-md object-cover" />
                   <p className='pt-3 text-sm'>Java</p>
                 </li>
                 <li className="p-5 w-1/3 aspect-square flex flex-col items-center justify-center">
-                  <Image src="/img/icon.svg" alt="Nombre" width={50} height={50} className="rounded-md object-cover" />
+                  <Image src="/img/technologies/c-charp.png" alt="Nombre" width={50} height={50} className="rounded-md object-cover" />
                   <p className='pt-3 text-sm'>C#</p>
                 </li>
                 <li className="p-5 w-1/3 aspect-square flex flex-col items-center justify-center">
-                  <Image src="/img/icon.svg" alt="Nombre" width={50} height={50} className="rounded-md object-cover" />
+                  <Image src="/img/technologies/dot-Net.svg" alt="Nombre" width={50} height={50} className="rounded-md object-cover" />
                   <p className='pt-3 text-sm'>.Net</p>
                 </li>
                 <li className="p-5 w-1/3 aspect-square flex flex-col items-center justify-center">
-                  <Image src="/img/icon.svg" alt="Nombre" width={50} height={50} className="rounded-md object-cover" />
+                  <Image src="/img/technologies/mongodb.svg" alt="Nombre" width={50} height={50} className="rounded-md object-cover" />
                   <p className='pt-3 text-sm'>MongoDB</p>
                 </li>
                 <li className="p-5 w-1/3 aspect-square flex flex-col items-center justify-center">
-                  <Image src="/img/icon.svg" alt="Nombre" width={50} height={50} className="rounded-md object-cover" />
+                  <Image src="/img/technologies/SQL.png" alt="Nombre" width={50} height={50} className="rounded-md object-cover" />
                   <p className='pt-3 text-sm'>SQL</p>
                 </li>
               </ul>

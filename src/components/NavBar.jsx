@@ -17,12 +17,12 @@ function NavBar() {
     const navigationLogged = [
         { title: "Proyectos", path: "#projects" },
         { title: "Experiencia", path: "#experience" },
-        { title: "Conocimientos", path: "#knowledge" }
+        { title: "Tecnologías", path: "#technologies" }
     ];
     const navigationMain = [
         { title: "Proyectos", path: "#projects" },
         { title: "Experiencia", path: "#experience" },
-        { title: "Conocimientos", path: "#knowledge" }
+        { title: "Tecnologías", path: "#technologies" }
     ];
 
     const handleLinkClick = (idx) => {

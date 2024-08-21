@@ -19,7 +19,8 @@ module.exports = {
         primary: '#9C00D0',
         secondary: '#7400B8',
         ternary: '#BF00FF',
-        orange: '#60F5D3'
+        orange: '#60F5D3',
+        background: '#09111F'
       }
     },
   },
