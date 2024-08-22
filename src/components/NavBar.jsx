@@ -1,28 +1,21 @@
 "use client"
 import { useState, useEffect } from "react";
 import Image from 'next/image'
+import Link from 'next/link'
+import { usePathname } from 'next/navigation';
 
 function NavBar() {
     const [activeLink, setActiveLink] = useState(0);
     const [hamburguerActive, setHamburguerActive] = useState(false);
-    const [pathname, setPathname] = useState('');
+    const pathname = usePathname();
 
-    useEffect(() => {
-        // Este código solo se ejecutará en el cliente
-        if (typeof window !== 'undefined') {
-            setPathname(window.location.pathname);
-        }
-    }, []);
+    const imageUrl = pathname === '/es' ? '/img/language/english.png' : '/img/language/spanish.png';
 
-    const navigationLogged = [
-        { title: "Proyectos", path: "#projects" },
-        { title: "Experiencia", path: "#experience" },
-        { title: "Tecnologías", path: "#technologies" }
-    ];
     const navigationMain = [
         { title: "Proyectos", path: "#projects" },
         { title: "Experiencia", path: "#experience" },
-        { title: "Tecnologías", path: "#technologies" }
+        { title: "Tecnologías", path: "#technologies" },
+        { title: "Sobre mí", path: "#about-me" },
     ];
 
     const handleLinkClick = (idx) => {
@@ -67,6 +60,12 @@ function NavBar() {
                     <div className="menu__right-menu-container">
                         <button className="menu__right-menu-item"><a href="https://www.linkedin.com/in/saul-lopez-715536165/">LinkedIn</a></button>
                         <button className="menu__right-menu-item"><a href="https://github.com/sauljlm">GitHub</a></button>
+                        <button
+                            className="menu__right-menu-item button-language w-10 h-6 bg-no-repeat bg-cover bg-center active:scale-105"
+                            style={{ backgroundImage: `url(${imageUrl})` }}
+                        >
+                            <Link href={pathname === '/es' ? '/' : '/es'} className="inline-block w-full h-full active:scale-105"></Link>
+                        </button>
                     </div>
                 </nav>
             </div>
