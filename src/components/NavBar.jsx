@@ -20,6 +20,7 @@ function NavBar() {
 
     const handleLinkClick = (idx) => {
         setActiveLink(idx);
+        setHamburguerActive(!hamburguerActive);
     };
     
     const renderMenuItems = (navigationItems) => {
