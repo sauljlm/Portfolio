@@ -13,7 +13,7 @@ function Homepage() {
               <button className="bg-primary hover:bg-secondary active:scale-105  py-2 px-4 rounded-full mr-4 my-1"><a href="https://www.linkedin.com/in/saul-lopez-715536165/" target="_blank">LinkedIn</a></button>
               <button className="bg-primary hover:bg-secondary active:scale-105 py-2 px-4 rounded-full"><a href="https://github.com/sauljlm" target="_blank">GitHub</a></button>
             </div>
-            <button className='bg-primary hover:bg-secondary active:scale-105 rounded-lg py-2 px-4 mr-5'>Descargar CV</button>
+            <button className='bg-primary hover:bg-secondary active:scale-105 rounded-lg py-2 px-4 mr-5'><a href="/img/Saul-curriculum.pdf" target="_blank">Descargar CV</a></button>
           </div>
         </div>
         <div className="flex w-1/3">
@@ -108,13 +108,13 @@ function Homepage() {
               </div>
             </div>
             <div className="w-auto w-2/5 mt-10">
-              <Image src="/img/projects/ElementDungeon1.png" className="profile-photo hover:scale-125 hover:rounded-lg transition w-full" width={300} height={230} alt=''/>
+              <Image src="/img/projects/ElementDungeon1.png" className="hover:scale-125 hover:rounded-lg transition w-full" width={300} height={230} alt=''/>
             </div>
           </article>
 
           <article className="flex mb-20 flex-col sm:flex-row">
             <div className="w-auto w-2/5 mt-10">
-              <Image src="/img/projects/CondoHub.png" className="profile-photo hover:scale-125 hover:rounded-lg transition w-full" width={300} height={230} alt=''/>
+              <Image src="/img/projects/CondoHub.png" className="hover:scale-125 hover:rounded-lg transition w-full" width={300} height={230} alt=''/>
             </div>
             <div className="w-auto mt-5 sm:w-3/5 sm:mt-0 pl-0 sm:pl-8">
               <h3 className="text-ternary text-lg font-bold">Condo Hub</h3>
@@ -160,13 +160,13 @@ function Homepage() {
               </div>
             </div>
             <div className="w-auto w-2/5 mt-10">
-              <Image src="/img/projects/SIMEPCI.png" className="profile-photo hover:scale-125 hover:rounded-lg transition w-full" width={300} height={230} alt=''/>
+              <Image src="/img/projects/SIMEPCI.png" className="hover:scale-125 hover:rounded-lg transition w-full" width={300} height={230} alt=''/>
             </div>
           </article>
 
           <article className="flex mb-20 flex-col sm:flex-row">
             <div className="w-auto w-2/5 mt-10">
-              <Image src="/img/projects/MenosOrdinario.png" className="profile-photo hover:scale-125 hover:rounded-lg transition w-full" width={300} height={230} alt=''/>
+              <Image src="/img/projects/MenosOrdinario.png" className="hover:scale-125 hover:rounded-lg transition w-full" width={300} height={230} alt=''/>
             </div>
             <div className="w-auto mt-5 sm:w-3/5 sm:mt-0 pl-0 sm:pl-8">
               <h3 className="text-ternary text-lg font-bold">Menos Ordinario</h3>
@@ -216,7 +216,7 @@ function Homepage() {
               </div>
             </div>
             <div className="w-auto sm:w-2/5 mt-10">
-              <Image src="/img/projects/Nike.png" className="profile-photo hover:scale-125 hover:rounded-lg transition w-full" width={300} height={230} alt=''/>
+              <Image src="/img/projects/Nike.png" className="hover:scale-125 hover:rounded-lg transition w-full" width={300} height={230} alt=''/>
             </div>
           </article>
         </div>
@@ -225,9 +225,9 @@ function Homepage() {
       <section className="flex w-2/3 sm:w-4/5 xl:w-1/2 mt-48 flex-col" id='technologies'>
         <div className="flex flex-col w-full h-1/2">
           <h2 className="font-ailerons relative right-2 text-4xl mb-8">Tecnologías</h2>
-          <div className="flex justify-center">
+          <div className="grid grid-cols-2 gap-6">
             {/* Front End Section */}
-            <article className="w-1/2 px-4 bg-background shadow-lg shadow-primary p-5 rounded-2xl mr-2">
+            <article className="px-4 mb-2 bg-background secondary-shadow p-5 rounded-2xl">
               <h3 className="text-ternary text-xl font-bold text-center">Front End</h3>
               <ul className="flex w-full flex-wrap">
                 <li className="p-5 w-1/3 aspect-square flex flex-col items-center justify-center">
@@ -257,7 +257,7 @@ function Homepage() {
               </ul>
             </article>
             {/* Back End Section */}
-            <article className="w-1/2 px-4 bg-background shadow-lg shadow-primary p-5 rounded-2xl ml-2">
+            <article className="px-4 mb-2 bg-background secondary-shadow p-5 rounded-2xl">
               <h3 className="text-ternary text-xl font-bold text-center">Back End</h3>
               <ul className="flex w-full flex-wrap">
                 <li className="p-5 w-1/3 aspect-square flex flex-col items-center justify-center">
@@ -286,11 +286,92 @@ function Homepage() {
                 </li>
               </ul>
             </article>
+            {/* Learning Section */}
+            <article className="px-4 mb-2 bg-background secondary-shadow p-5 rounded-2xl">
+              <h3 className="text-ternary text-xl font-bold text-center">Aprendiendo</h3>
+              <ul className="flex w-full flex-wrap">
+                <li className="p-5 w-1/3 aspect-square flex flex-col items-center justify-center">
+                  <Image src="/img/technologies/python.png" alt="Nombre" width={50} height={50} className="rounded-md object-cover" />
+                  <p className='pt-3 text-sm'>Python</p>
+                </li>
+                <li className="p-5 w-1/3 aspect-square flex flex-col items-center justify-center">
+                  <Image src="/img/technologies/typescript.png" alt="Nombre" width={50} height={50} className="rounded-md object-cover" />
+                  <p className='pt-3 text-sm'>TypeScript</p>
+                </li>
+                <li className="p-5 w-1/3 aspect-square flex flex-col items-center justify-center">
+                  <Image src="/img/technologies/astro.png" alt="Nombre" width={50} height={50} className="rounded-md object-cover" />
+                  <p className='pt-3 text-sm'>Astro</p>
+                </li>
+                <li className="p-5 w-1/3 aspect-square flex flex-col items-center justify-center">
+                  <Image src="/img/technologies/azure.png" alt="Nombre" width={50} height={50} className="rounded-md object-cover" />
+                  <p className='pt-3 text-sm'>Azure</p>
+                </li>
+              </ul>
+            </article>
+            {/* Tools Section */}
+            <article className="px-4 mb-2 bg-background secondary-shadow p-5 rounded-2xl">
+              <h3 className="text-ternary text-xl font-bold text-center">Herramientas</h3>
+              <ul className="flex w-full flex-wrap">
+                <li className="p-5 w-1/3 aspect-square flex flex-col items-center justify-center">
+                  <Image src="/img/technologies/Git.png" alt="Nombre" width={50} height={50} className="rounded-md object-cover" />
+                  <p className='pt-3 text-sm'>Git</p>
+                </li>
+                <li className="p-5 w-1/3 aspect-square flex flex-col items-center justify-center">
+                  <Image src="/img/technologies/vs-code.png" alt="Nombre" width={50} height={50} className="rounded-md object-cover" />
+                  <p className='pt-3 text-sm'>VSCode</p>
+                </li>
+                <li className="p-5 w-1/3 aspect-square flex flex-col items-center justify-center">
+                  <Image src="/img/technologies/SSMS.jpg" alt="Nombre" width={50} height={50} className="rounded-md object-cover" />
+                  <p className='pt-3 text-sm'>SSMS</p>
+                </li>
+                <li className="p-5 w-1/3 aspect-square flex flex-col items-center justify-center">
+                  <Image src="/img/technologies/IntelliJ.png" alt="Nombre" width={50} height={50} className="rounded-md object-cover" />
+                  <p className='pt-3 text-sm'>IntelliJ</p>
+                </li>
+              </ul>
+            </article>
           </div>
         </div>
       </section>
 
-      
+      <section className="w-2/3 mt-48">
+        <h2 className="font-ailerons relative right-2 text-4xl mb-8">Misión y Visión</h2>
+        <div className='flex'>
+          <div className="flex w-1/2 flex-col">
+            <h3 className="text-ternary text-xl font-bold">Misión</h3>
+            <p className="pt-5 text-balance">Desarrollar sistemas de software innovador y eficiente, empleando las mejores prácticas y tecnologías más utilizadas en la industria, para crear aplicaciones web funcionales y de alta calidad que superen las expectativas de los usuarios y clientes. Comprometerme con el aprendizaje continuo y la mejora constante para ofrecer siempre el mejor producto posible.</p>
+          </div>
+          <div className="flex w-1/2 flex-col pl-10">
+            <h3 className="text-ternary text-xl font-bold">Visión</h3>
+            <p className="pt-5 text-balance">Convertirme en un desarrollador de software destacado, por mi habilidad para crear sistemas web excepcionales y funcionales. Aspirar a liderar proyectos innovadores que marquen la diferencia en el mundo de la tecnología y que ofrezcan soluciones efectivas y sostenibles a problemas complejos.</p>
+          </div>
+        </div>
+      </section>
+
+      <section className="flex flex-col w-2/3 sm:w-4/5 xl:w-1/2 mt-48" id='about-me'>
+        <h2 className="text-primary font-ailerons relative right-2 text-4xl mb-8">Sobre mí</h2>
+        <div className='flex'>
+          <div className="flex w-2/3 flex-col">
+            <p className="pt-2 text-balance">Hola! soy Saúl López, un <span className='text-orange'>desarrollador full stack y estudiante de Ingeniería del Software</span>, con una pasión profunda por el aprendizaje continuo y la creación de soluciones web innovadoras desde pagínas web hasta aplicaciones funcionales.</p>
+            <p className="pt-2 text-balance">Mi enfoque se centra en <span className='text-orange'>la combinación de habilidades técnicas y creativas para desarrollar aplicaciones robustas y escalables</span> que respondan a las necesidades actuales del mercado.</p>
+            <p className="pt-2 text-balance">Estoy en constante búsqueda de una compañía dinámica donde pueda no solo aplicar mis conocimientos y experiencias previas, sino también expandirlos enfrentando nuevos desafíos.</p>
+            <p className="pt-2 text-balance">Mi objetivo es <span className='text-orange'>contribuir al éxito de la empresa</span> mientras continúo creciendo profesionalmente, aprendiendo de cada proyecto y colaborando con equipos talentosos.</p>
+          </div>
+          <div className="flex w-1/3 primary-shadow h-fit rounded-full">
+            <Image src="/img/photo.png" className="profile-photo" width={250} height={250} alt=''/>
+          </div>
+        </div>
+      </section>
+
+      <footer class="opacity-80 m-4 mt-16 w-full mx-auto container w-2/3 sm:w-4/5 xl:w-1/2 mb-10 flex justify-center"> 
+        <div class="rounded-lg w-full max-w-screen-xl mx-auto md:flex md:items-center md:justify-between py-4"> 
+          <span class="text-sm sm:text-center text-zinc-800/90 dark:text-zinc-200/90">© 2024 Casi todos los derechos reservados</span> 
+          <ul class="flex flex-wrap items-center mt-3 text-sm font-medium dark:text-white/90 sm:mt-0"> 
+            <li><a href="/#about-me" class="hover:underline me-4 md:me-6">Sobre mí</a></li> 
+            <li><a id="contacto" href="mailto:saulsjlm2@gmail.com" class="hover:underline">Contacto</a></li> 
+          </ul> 
+        </div> 
+      </footer>
     </div>
   )
 }
