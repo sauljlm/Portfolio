@@ -352,10 +352,10 @@ function Homepage() {
         <h2 className="text-primary font-ailerons relative right-2 text-4xl mb-8">Sobre mí</h2>
         <div className='flex'>
           <div className="flex w-2/3 flex-col">
-            <p className="pt-2 text-balance">Hola! soy Saúl López, un <span className='text-orange'>desarrollador full stack y estudiante de Ingeniería del Software</span>, con una pasión profunda por el aprendizaje continuo y la creación de soluciones web innovadoras desde pagínas web hasta aplicaciones funcionales.</p>
-            <p className="pt-2 text-balance">Mi enfoque se centra en <span className='text-orange'>la combinación de habilidades técnicas y creativas para desarrollar aplicaciones robustas y escalables</span> que respondan a las necesidades actuales del mercado.</p>
+            <p className="pt-2 text-balance">Hola! soy Saúl López, un <span className="text-orange">desarrollador full stack y estudiante de Ingeniería del Software</span>, con una pasión profunda por el aprendizaje continuo y la creación de soluciones web innovadoras desde pagínas web hasta aplicaciones funcionales.</p>
+            <p className="pt-2 text-balance">Mi enfoque se centra en <span className="text-orange">la combinación de habilidades técnicas y creativas para desarrollar aplicaciones robustas y escalables</span> que respondan a las necesidades actuales del mercado.</p>
             <p className="pt-2 text-balance">Estoy en constante búsqueda de una compañía dinámica donde pueda no solo aplicar mis conocimientos y experiencias previas, sino también expandirlos enfrentando nuevos desafíos.</p>
-            <p className="pt-2 text-balance">Mi objetivo es <span className='text-orange'>contribuir al éxito de la empresa</span> mientras continúo creciendo profesionalmente, aprendiendo de cada proyecto y colaborando con equipos talentosos.</p>
+            <p className="pt-2 text-balance">Mi objetivo es <span className="text-orange">contribuir al éxito de la empresa</span> mientras continúo creciendo profesionalmente, aprendiendo de cada proyecto y colaborando con equipos talentosos.</p>
           </div>
           <div className="flex w-1/3 primary-shadow h-fit rounded-full">
             <Image src="/img/photo.png" className="profile-photo" width={250} height={250} alt=''/>

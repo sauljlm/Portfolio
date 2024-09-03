@@ -353,10 +353,10 @@ function Homepage() {
         <h2 className="text-primary font-ailerons relative right-2 text-4xl mb-8">About me</h2>
         <div className='flex'>
           <div className="flex w-2/3 flex-col">
-            <p className="pt-2 text-balance">Hello! I'm Saul Lopez, a <span className='text-orange'>full stack developer and Software Engineering student</span>, with a deep passion for continuous learning and creating innovative web solutions from web pages to functional applications.</p>
-            <p className="pt-2 text-balance">My focus is on <span className='text-orange'>combining technical and creative skills to develop robust and scalable applications</span> that respond to current market needs.</p>
+            <p className="pt-2 text-balance">Hello! I'm Saul Lopez, a <span className="text-orange">full stack developer and Software Engineering student</span>, with a deep passion for continuous learning and creating innovative web solutions from web pages to functional applications.</p>
+            <p className="pt-2 text-balance">My focus is on <span className="text-orange">combining technical and creative skills to develop robust and scalable applications</span> that respond to current market needs.</p>
             <p className="pt-2 text-balance">I am constantly looking for a dynamic company where I can not only apply my knowledge and previous experiences, but also expand them by facing new challenges.</p>
-            <p className="pt-2 text-balance">My goal is <span className='text-orange'>contribute to the success of the company</span> while I continue to grow professionally, learning from each project and collaborating with talented teams.</p>
+            <p className="pt-2 text-balance">My goal is <span className="text-orange">contribute to the success of the company</span> while I continue to grow professionally, learning from each project and collaborating with talented teams.</p>
           </div>
           <div className="flex w-1/3 primary-shadow h-fit rounded-full">
             <Image src="/img/photo.png" className="profile-photo" width={250} height={250} alt=''/>
