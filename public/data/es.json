@@ -1,0 +1,107 @@
+{
+    "profile": {
+        "name": "Saul Lopez",
+        "title": "Desarrollador Full Stack",
+        "description": "Desarrollador full stack apasionado en aprender y desarrollar soluciones web, en busca de una compañía donde poder explotar mis habilidades y ampliar mi conocimiento atravez de nuevos desafíos.",
+        "cv-link": "/img/Sauls-curriculum.pdf",
+        "image": "/img/icon.svg"
+    },
+    "experience": [
+      {
+        "title": "Senior Content Editor",
+        "company": "Publicis Global Delivery",
+        "date": "Noviembre 2022 - Actualidad",
+        "description": "He trabajado como Senior Content Editor liderando el lado del desarrollo web garantizando páginas de calidad a través de buenas prácticas y mis conocimientos en desarrollo web."
+      },
+      {
+        "title": "Content Editor",
+        "company": "Publicis Global Delivery",
+        "date": "Marzo 2020 - Noviembre 2022",
+        "description": "Tuve la oportunidad de trabajar junto a un gran equipo de desarrolladores web para desarrollar y gestionar páginas web  asegurando una experiencia de usuario de alta calidad."
+      },
+      {
+        "title": "Junior Content Editor",
+        "company": "Hangar",
+        "date": "Diciembre 2019 - Marzo 2020",
+        "description": "Trabajé como Junior content editor en un equipo de desarrollo, encargado de desarrollar, modificar y gestionar páginas web mediante AEM en conjunto con el equipo de desarrollo y de control de calidad."
+      }
+    ],
+    "projects": [
+      {
+        "name": "Element Dungeon",
+        "description": "Un videojuego RPG inspirado en Zelda con 4 diferentes cababosos, armas, tienda, niveles y otros. Desarrollado en Java, aplicando patrones de diseño y se utilizó libGDX para toda la parte de renderizado del RPG. Realizado como parte de un proyecto en Cenfotec en colaboración con 2 compañeros.",
+        "technologies": ["Java", "LibGDX"],
+        "links": {
+          "github": "https://github.com/sauljlm/ElementDongeon",
+          "page": "https://elementdungeon.com/"
+        },
+        "image": "/img/projects/ElementDungeon1.png"
+      },
+      {
+        "name": "Condo Hub",
+        "description": "Una aplicación web pensada para el manejo de condominios, dónde los usuarios pueden registrarse y reservar amenidades del condominio, así como los administradores pueden crear y administrar las diferentes amenidades, además de publicar noticias. Realizado como parte de un proyecto en Cenfotec en colaboración con 2 compañeros.",
+        "technologies": ["React", "Firebase"],
+        "links": {
+          "github": "https://github.com/sauljlm/CondoHub/tree/development",
+          "page": "https://condoplus-6ad1a.web.app/app"
+        },
+        "image": "/img/projects/CondoHub.png"
+      },
+      {
+        "name": "SIMEPCI",
+        "description": "Una aplicación web diseñada para el manejo de hospitales, donde los administradores, doctores, secretarias y otros administradores pueden hacer manejo del mismo, crear cupos para citas, crear expedientes, recetas, así como los pacientes pueden reservar, ver sus recetas y realizar pagos. Entre otras funciones más. Realizado como parte de un proyecto en Cenfotec en colaboración con 2 compañeros.",
+        "technologies": ["C#", ".Net", "SQL"],
+        "links": {
+          "github": "https://github.com/sauljlm/SIMEPCI"
+        },
+        "image": "/img/projects/SIMEPCI.png"
+      },
+      {
+        "name": "Menos Ordinario",
+        "description": "Una aplicación web pensada como blog donde poder registrarse como usuario, realizar publicaciones, editar e eliminarlas, así como visualizar las de otros usuarios.",
+        "technologies": ["JavaScript", "HTML", "CSS", "Node.js", "MongoDB"],
+        "links": {
+          "github": "https://github.com/sauljlm/Menos-Ordinario",
+          "page": "https://menos-ordinario.netlify.app/"
+        },
+        "image": "/img/projects/MenosOrdinario.png"
+      },
+      {
+        "name": "Nike Clon",
+        "description": "Una página web clon de la tienda Nike, donde se pueden visualizar los productos con sus caracteristicas y fotografías para posteriormente añadirlos al carrido y proceder con su compra.",
+        "technologies": ["React"],
+        "links": {
+          "github": "https://github.com/sauljlm/react-shop",
+          "page": "https://nick-shop.netlify.app/"
+        },
+        "image": "/img/projects/Nike.png"
+      }
+    ],
+    "about-me": {
+        "profile-photo": "/img/photo.png",
+        "bio": [
+            {
+              "text": "Hola! soy Saúl López, un",
+              "highlight": "desarrollador full stack y estudiante de Ingeniería del Software",
+              "text": ", con una pasión profunda por el aprendizaje continuo y la creación de soluciones web innovadoras desde pagínas web hasta aplicaciones funcionales.",
+              "highlightClass": "text-orange"
+            },
+            {
+              "text": "Mi enfoque se centra en",
+              "highlight": "la combinación de habilidades técnicas y creativas para desarrollar aplicaciones robustas y escalables",
+              "text": " que respondan a las necesidades actuales del mercado.",
+              "highlightClass": "text-orange"
+            },
+            {
+              "text": "Estoy en constante búsqueda de una compañía dinámica donde pueda no solo aplicar mis conocimientos y experiencias previas, sino también expandirlos enfrentando nuevos desafíos."
+            },
+            {
+              "text": "Mi objetivo es ",
+              "highlight": "contribuir al éxito de la empresa",
+              "text": " mientras continúo creciendo profesionalmente, aprendiendo de cada proyecto y colaborando con equipos talentosos.",
+              "highlightClass": "text-orange"
+            }
+        ]
+    }
+  }
+  

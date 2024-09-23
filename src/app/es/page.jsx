@@ -7,7 +7,7 @@ function Homepage() {
         <div className="flex w-2/3 flex-col">
           <h1 className="font-ailerons text-primary relative right-3 text-6xl">Saúl López</h1>
           <h2 className="text-2xl pt-2 relative right-0.5">Desarrollador Full Stack</h2>
-          <p className="pt-5 text-balance">Desarrollador full stack apasionado en aprender y desarrollar soluciones web, en busca de una compañía donde poder explotar mi conocimiento y ampliar mi conocimiento atravez de nuevos desafíos.</p>
+          <p className="pt-5 text-balance">Desarrollador full stack apasionado en aprender y desarrollar soluciones web, en busca de una compañía donde poder explotar mis habilidades y ampliar mi conocimiento atravez de nuevos desafíos.</p>
           <div className="pt-7 flex justify-between">
             <div>
               <button className="bg-primary hover:bg-secondary active:scale-105  py-2 px-4 rounded-full mr-4 my-1"><a href="https://www.linkedin.com/in/saul-lopez-715536165/" target="_blank">LinkedIn</a></button>
@@ -334,20 +334,6 @@ function Homepage() {
         </div>
       </section>
 
-      <section className="w-2/3 mt-48">
-        <h2 className="font-ailerons relative right-2 text-4xl mb-8">Misión y Visión</h2>
-        <div className='flex'>
-          <div className="flex w-1/2 flex-col">
-            <h3 className="text-ternary text-xl font-bold">Misión</h3>
-            <p className="pt-5 text-balance">Desarrollar sistemas de software innovador y eficiente, empleando las mejores prácticas y tecnologías más utilizadas en la industria, para crear aplicaciones web funcionales y de alta calidad que superen las expectativas de los usuarios y clientes. Comprometerme con el aprendizaje continuo y la mejora constante para ofrecer siempre el mejor producto posible.</p>
-          </div>
-          <div className="flex w-1/2 flex-col pl-10">
-            <h3 className="text-ternary text-xl font-bold">Visión</h3>
-            <p className="pt-5 text-balance">Convertirme en un desarrollador de software destacado, por mi habilidad para crear sistemas web excepcionales y funcionales. Aspirar a liderar proyectos innovadores que marquen la diferencia en el mundo de la tecnología y que ofrezcan soluciones efectivas y sostenibles a problemas complejos.</p>
-          </div>
-        </div>
-      </section>
-
       <section className="flex flex-col w-2/3 sm:w-4/5 xl:w-1/2 mt-48" id='about-me'>
         <h2 className="text-primary font-ailerons relative right-2 text-4xl mb-8">Sobre mí</h2>
         <div className='flex'>
@@ -365,7 +351,7 @@ function Homepage() {
 
       <footer class="opacity-80 m-4 mt-16 w-full mx-auto container w-2/3 sm:w-4/5 xl:w-1/2 mb-10 flex justify-center"> 
         <div class="rounded-lg w-full max-w-screen-xl mx-auto md:flex md:items-center md:justify-between py-4"> 
-          <span class="text-sm sm:text-center text-zinc-800/90 dark:text-zinc-200/90">© 2024 Casi todos los derechos reservados</span> 
+          <span class="text-sm sm:text-center text-zinc-200/90">© 2024 Casi todos los derechos reservados</span> 
           <ul class="flex flex-wrap items-center mt-3 text-sm font-medium dark:text-white/90 sm:mt-0"> 
             <li><a href="/#about-me" class="hover:underline me-4 md:me-6">Sobre mí</a></li> 
             <li><a id="contacto" href="mailto:saulsjlm2@gmail.com" class="hover:underline">Contacto</a></li> 
