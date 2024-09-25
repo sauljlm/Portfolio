@@ -77,6 +77,116 @@
         "image": "/img/projects/Nike.png"
       }
     ],
+    "technologies": [
+      {
+        "category": "Front End",
+        "items": [
+          {
+            "name": "HTML",
+            "image": "/img/technologies/html-5.png"
+          },
+          {
+            "name": "CSS",
+            "image": "/img/technologies/css-3.png"
+          },
+          {
+            "name": "JavaScript",
+            "image": "/img/technologies/js.png"
+          },
+          {
+            "name": "ReactJS",
+            "image": "/img/technologies/react-js.png"
+          },
+          {
+            "name": "Next.js",
+            "image": "/img/technologies/next-js.png"
+          },
+          {
+            "name": "TailwindCSS",
+            "image": "/img/technologies/Tailwind-CSS.png"
+          }
+        ]
+      },
+      {
+        "category": "Back End",
+        "items": [
+          {
+            "name": "Node.js",
+            "image": "/img/technologies/node-js.png"
+          },
+          {
+            "name": "Java",
+            "image": "/img/technologies/java.png"
+          },
+          {
+            "name": "C#",
+            "image": "/img/technologies/c-charp.png"
+          },
+          {
+            "name": ".Net",
+            "image": "/img/technologies/dot-Net.svg"
+          },
+          {
+            "name": "MongoDB",
+            "image": "/img/technologies/mongodb.svg"
+          },
+          {
+            "name": "SQL",
+            "image": "/img/technologies/SQL.png"
+          }
+        ]
+      },
+      {
+        "category": "Learning",
+        "items": [
+          {
+            "name": "Spring Boot",
+            "image": "/img/technologies/spring.png"
+          },
+          {
+            "name": "Angular",
+            "image": "/img/technologies/angular.png"
+          },
+          {
+            "name": "Python",
+            "image": "/img/technologies/python.png"
+          },
+          {
+            "name": "TypeScript",
+            "image": "/img/technologies/typescript.png"
+          },
+          {
+            "name": "Astro",
+            "image": "/img/technologies/astro.png"
+          },
+          {
+            "name": "Azure",
+            "image": "/img/technologies/azure.png"
+          }
+        ]
+      },
+      {
+        "category": "Tools",
+        "items": [
+          {
+            "name": "Git",
+            "image": "/img/technologies/Git.png"
+          },
+          {
+            "name": "VSCode",
+            "image": "/img/technologies/vs-code.png"
+          },
+          {
+            "name": "SSMS",
+            "image": "/img/technologies/SSMS.jpg"
+          },
+          {
+            "name": "IntelliJ",
+            "image": "/img/technologies/IntelliJ.png"
+          }
+        ]
+      }
+    ],
     "about-me": {
         "profile-photo": "/img/photo.png",
         "bio": [
