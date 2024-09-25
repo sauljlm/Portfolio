@@ -19,7 +19,7 @@ function Homepage() {
     <div className="container mx-auto wrapper flex items-center flex-col">
       <section className="flex flex-col-reverse w-11/12 sm:w-4/5 md:flex-row xl:w-1/2 mt-20 sm:mt-48">
         <div className="flex md:w-2/3 flex-col">
-          <h1 className="font-ailerons text-primary relative right-3 text-6xl">Saúl López</h1>
+          <h1 className="font-ailerons text-primary relative right-3 text-5xl sm:text-6xl">Saúl López</h1>
           <h2 className="text-2xl pt-2 relative right-0.5">Desarrollador Full Stack</h2>
           <p className="pt-5 text-balance">
             Desarrollador full stack apasionado en aprender y desarrollar soluciones web, en busca de una compañía donde poder explotar mis habilidades y ampliar mi conocimiento atravez de nuevos desafíos.</p>
