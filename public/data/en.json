@@ -57,6 +57,16 @@
         "image": "/img/projects/SIMEPCI.png"
       },
       {
+        "name": "Post Hub",
+        "description": "A social network where users can register, create, edit, and delete posts, as well as interact with and explore content shared by other users.",
+        "technologies": ["React", "Node.js", "MongoDB"],
+        "links": {
+          "github": "https://github.com/sauljlm/PostHub",
+          "page": "https://posthub-dev.netlify.app/"
+        },
+        "image": "/img/projects/MenosOrdinario.png"
+      },
+      {
         "name": "Menos Ordinario",
         "description": "A web application designed as a blog where you can register as a user, make publications, edit and delete them, as well as view those of other users.",
         "technologies": ["JavaScript", "HTML", "CSS", "Node.js", "MongoDB"],
