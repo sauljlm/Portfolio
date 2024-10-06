@@ -62,7 +62,7 @@
         "technologies": ["React", "Node.js", "MongoDB"],
         "links": {
           "github": "https://github.com/sauljlm/PostHub",
-          "page": "https://posthub-dev.netlify.app/"
+          "page": "https://post-hub.up.railway.app/"
         },
         "image": "/img/projects/MenosOrdinario.png"
       },
