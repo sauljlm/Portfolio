@@ -16,7 +16,8 @@ body {
 
 .profile-photo {
 	width: 250px;
-	height: auto;
+	max-width: 250px;
+	height: 250px;
 }
 
 .wrapper {

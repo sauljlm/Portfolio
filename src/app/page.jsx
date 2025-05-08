@@ -32,7 +32,7 @@ function Homepage() {
           </div>
         </div>
         <div className="flex w-1/3">
-          <Image src="/img/icon.svg" className="profile-photo" width={250} height={230} alt=''/>
+          <Image src="/img/photo2.png" className="profile-photo" width={250} height={230} alt=''/>
         </div>
       </section>
       <section className="flex w-11/12 sm:w-4/5 xl:w-1/2 mt-28 sm:mt-48 flex-col" id='experience'>
